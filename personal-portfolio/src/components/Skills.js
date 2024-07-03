@@ -9,6 +9,8 @@ import phpImage from "../assets/img/php.png";
 import pythonImage from "../assets/img/python.png";
 import cImage from "../assets/img/Csharp_Logo.png";
 import jsImage from "../assets/img/js.png";
+import nestImage from "../assets/img/nest.png";
+import nextImage from "../assets/img/next.png";
 
 export const Skills = () => {
   const responsive = {
@@ -41,14 +43,16 @@ export const Skills = () => {
     { img: meter1, title: "Laravel" },
     { img: meter2, title: "React" },
     { img: meter3, title: "Node.js" },
-    { img: meter4, title: "Database Management" }
+    { img: meter4, title: "Django" },
+    { img: nestImage, title: "NEST" },
+    { img: nextImage, title: "NEXT" }
   ];
 
   const skillsFirstRow2 = [
     { img: phpImage, title: "PHP" },
     { img: jsImage, title: "JAVASCRIPT" },
     { img: cImage, title: "C#" },
-    { img: pythonImage, title: "PYTHON" }
+    { img: pythonImage, title: "PYTHON" },
   ];
 
   return (
